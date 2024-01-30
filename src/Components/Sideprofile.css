@@ -4,13 +4,14 @@
   align-items: center;
   background-color: #ebebeb;
   border-radius: 10px;
-  padding: 16px;
+  padding: 0px 16px 0px 10px;
+  margin: 0px 10px 0px 10px;
   gap: 20px;
 }
-.username{
+.username {
   background-color: #ebebeb;
 }
-.profile-pic{
+.profile-pic {
   background-color: #ebebeb;
 }
 h4 {

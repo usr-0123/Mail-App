@@ -1,16 +1,18 @@
-.logo {
-  /* background-color: #ff0000; */
-}
 .sides {
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  gap: 20px;
-  background-color: #ff0000;
+  /* gap: 20px; */
   height: 100%;
 }
-.sprofile,
+.logo {
+  /* height: 88px; */
+  background-color: #fff;
+}
+.sprofile {
+  /* margin-top: 20px; */
+}
+/* .sprofile,
 .smenu,
 .shortcuts {
   background-color: #ff0000;
-}
+} */
