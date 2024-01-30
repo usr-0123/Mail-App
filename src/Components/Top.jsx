@@ -8,7 +8,7 @@ const Top = () => {
     <div className="Top">
       <div className="BackGround">
         <div className="blueimage">
-          <img src={BackGround} alt="noimage" />
+          <img className="bgimg" src={BackGround} alt="noimage" />
           <img className="avatar" src={Avatar} alt="noimage" />
         </div>
       </div>
