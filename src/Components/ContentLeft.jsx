@@ -1,4 +1,5 @@
 import React from "react";
+import Range from "../Components/Range";
 import "./ContentLeft.css";
 import pin from "../assets/Group.png";
 import briefcase from "../assets/briefcase.png";
@@ -6,31 +7,22 @@ import calender from "../assets/Group.png";
 import link from "../assets/link.png";
 import unsplash1 from "../assets/unsplash1.png";
 import unsplash2 from "../assets/unsplash2.png";
+import dots from "../assets/dots-vertical.png";
 
 const ContentLeft = () => {
-
-  // const [count, setCount] = useState(0);
-  // setCount((count) => count + 1)}
-
   return (
     <div className="left-center">
       <div className="completePro">
-        <h4>Completed Your Profile</h4>
-        <div className="scale">
-          <input
-            type="range"
-            name="profile"
-            id="profile"
-            min={0}
-            max={100}
-            defaultValue={80}
-          />
-          {/* <span>{count}%</span> */}
-        </div>
+        <p>Complete Your Profile</p>
+        <Range />
       </div>
+
       <div className="intro">
+        <div className="intr">
+          <p>Intro</p>
+          <img src={dots} alt="dots" />
+        </div>
         <div className="experience">
-          <h4>Intro</h4>
           <p>I am an experienced joiner with well developed skills</p>
         </div>
         <div>
@@ -52,9 +44,10 @@ const ContentLeft = () => {
           </div>
         </div>
       </div>
+
       <div className="photos">
         <div className="see-all">
-          <h3>Photos</h3>
+          <p>Photos</p>
           <p style={{ color: "#2563EB" }}>see all</p>
         </div>
         <div className="pics">

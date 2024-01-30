@@ -1,6 +1,8 @@
 .GroupItems {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  
   .heading {
     display: flex;
     flex-direction: row;

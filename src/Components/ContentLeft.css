@@ -1,34 +1,69 @@
 .left-center {
-  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   width: 250px;
-  height: 60vh;
   margin-top: 20px;
   margin-left: 10px;
   border-radius: 7px;
-  background-color: rgb(247, 246, 246);
-
-  .icon-p {
-    display: flex;
-    gap: 20px;
-    margin-left: 10px;
-    margin-top: 15px;
-  }
-
-  .experience {
-    /* background-color: green; */
-    margin-top: 20px;
-    border-bottom: 1px solid rgb(162, 162, 162);
-  }
-
-  .see-all {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 15px;
-  }
 }
+
+.icon-p {
+  display: flex;
+  gap: 20px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.experience {
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(162, 162, 162);
+}
+
+.see-all {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
 .scale {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 10px;
+}
+
+.completePro {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.intro {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.intr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.photos {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.see-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+}
+.pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 10px;
 }

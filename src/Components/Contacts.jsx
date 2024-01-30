@@ -10,9 +10,10 @@ function Contacts() {
   return (
     <>
       <div className="contactshead">
-        <p>Groups</p>
+        <p>Contacts</p>
         <h1>See all</h1>
       </div>
+
       <div className="user1">
         <img src={user1} alt="img1" />
         <p>Wade Warren</p>

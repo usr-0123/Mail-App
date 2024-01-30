@@ -1,6 +1,12 @@
-.sidenav {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  gap: 10px;
+.leftSide{
+  padding: 10px;
+  /* background-color: #ff0000; */
+}
+
+.sidebar-shortCuts,
+.SideProfile,
+.sidenav-menu {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
 }

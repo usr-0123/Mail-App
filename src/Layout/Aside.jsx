@@ -8,9 +8,6 @@ import Bottom from "../components/Bottom";
 function LeftContent() {
   return (
     <div className="leftContent">
-      {/* <div className="top">
-        <Top/>
-      </div> */}
       <div className="leftSide">
         <div className="sidebar-shortCuts">
           <ShortCuts />

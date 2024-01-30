@@ -6,12 +6,20 @@ import Logo from "../Components/Logo";
 
 function Sidebar() {
   return (
-    <>
-      <Logo />
-      <Sideprofile />
-      <Sidemenu />
-      <Shortcuts />
-    </>
+    <div className="sides">
+      <div className="logo">
+        <Logo />
+      </div>
+      <div className="sprofile">
+        <Sideprofile />
+      </div>
+      <div className="smenu">
+        <Sidemenu />
+      </div>
+      <div className="shortcuts">
+        <Shortcuts />
+      </div>
+    </div>
   );
 }
 export default Sidebar;
