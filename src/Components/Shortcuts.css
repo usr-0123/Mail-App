@@ -1,0 +1,10 @@
+.web-design,
+.Mob-design,
+.prod-design{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0px 10px 0px;
+    font-weight: bold;
+}

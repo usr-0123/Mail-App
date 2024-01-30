@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: #fff;
+  display: flex;
+}
+
+.sidebar {
+  width: 15vw;
+  height: 100vh;
+}
+
+.right {
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {height: 88px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex: 10;
+}
+
+.aside {display: flex;
+  flex: 2;
+  position: sticky;
+}

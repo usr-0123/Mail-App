@@ -1,0 +1,7 @@
+#search-field{
+    padding:15px 100px;
+    outline: none;
+    border-radius: 12px;
+    border: 1px solid var(--Greyscale-200, #E2E8F0);
+    margin-left: 200px;
+}

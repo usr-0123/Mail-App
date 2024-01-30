@@ -1,0 +1,34 @@
+.contactshead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 24px 5px 24px;
+    background-color: #fe0000;
+    justify-content: space-between;
+    gap: 20px;
+}
+.user1,.user2,.user3,.user4,.user5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 16px 5px 24px;
+    background-color: #fe0000;
+    gap: 20px;
+
+> img {
+        height: 50px;
+        border-radius: 30px;
+    }
+
+    > p {
+        font-weight: bold;
+    }
+    >h1 {
+        font-weight: bold;
+    }
+}
+
+/* .contactshead {
+    padding: 0px 24px 0px 24px;
+} */
+

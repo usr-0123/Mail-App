@@ -1,0 +1,27 @@
+.sidemenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 12px;
+  .heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    p {
+      color: #94a3b8;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+  .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    color: #64748b;
+  }
+}

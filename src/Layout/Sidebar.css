@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-container{
+  padding: 10px;
+}
+
+.top {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.sidebar-profile {
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.menu-timeline,
+.menu-friends,
+.menu-groups,
+.menu-videos,
+.menu-photos,
+.events {
+  display: flex;
+  gap: 20px;
+}
+
+.events{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-events{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+.sidebar-shortcut {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.sidebar-shortcut > h1 {
+  padding: 20px 0px 20px 0px;
+}
+
+.website-design,.mobile-design,.product-design {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+}
