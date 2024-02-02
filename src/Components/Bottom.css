@@ -1,3 +1,27 @@
+.bottoms {
+  display: flex;
+  flex-direction: row;
+  /* gap: 10px; */
+  justify-content: space-between;
+}
+
+.bottomleft {
+  width: 32%;
+  /* padding: 10px; */
+  /* border-radius: 10px; */
+  /* background-color: #fff; */
+}
+.bottomright {
+  width: 62%;
+  /* padding: 10px; */
+  /* border-radius: 10px; */
+  /* background-color: #fff; */
+}
+
+.test {
+  background-color: #44ff00;
+  border-radius: 9px;
+}
 .below-image {
   display: flex;
 }

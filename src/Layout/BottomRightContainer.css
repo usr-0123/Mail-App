@@ -1,0 +1,15 @@
+.bottomrcontainer {
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  background-color: rgb(194, 194, 194);
+  padding: 10px;
+  height: 84vh;
+  width: 72%;
+  overflow: auto;
+}
+
+.aside{
+  /* width: 30%; */
+}

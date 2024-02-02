@@ -1,0 +1,21 @@
+.photosContainer {
+    /* background-color: #ff9100; */
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+
+    > img {
+        width: 90%;
+        border-radius: 10px;
+    }
+}

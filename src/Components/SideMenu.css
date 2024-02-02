@@ -5,13 +5,13 @@
   text-transform: capitalize;
   font-size: 12px;
   padding: 20px;
-  gap: 8px;
   background-color: #fff;
   
   .heading {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+
     p {
       color: #94a3b8;
       font-size: 12px;
@@ -19,9 +19,9 @@
       text-transform: uppercase;
     }
   }
+  
   .menu-item {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     gap: 10px;
     padding: 10px 0px 10px 0px;

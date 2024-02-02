@@ -3,23 +3,45 @@ import Shortcuts from "../Components/Shortcuts";
 import Sideprofile from "../Components/Sideprofile";
 import Sidemenu from "../Components/SideMenu";
 import Logo from "../Components/Logo";
+import { NavLink } from "react-router-dom";
 
 function Sidebar() {
   return (
-    <div className="sides">
-      <div className="logo">
-        <Logo />
+    <>
+      <div className="sides">
+        <div className="logo">
+          <div>
+            <Logo />
+          </div>
+        </div>
+        <div className="side-below">
+          <div className="sprofile">
+            <Sideprofile />
+          </div>
+          <div className="smenu">
+            <Sidemenu />
+          </div>
+          <div className="shortcuts">
+            <Shortcuts />
+          </div>
+        </div>
       </div>
-      <div className="sprofile">
-        <Sideprofile />
-      </div>
-      <div className="smenu">
-        <Sidemenu />
-      </div>
-      <div className="shortcuts">
-        <Shortcuts />
-      </div>
-    </div>
+
+      {/* <div className="menu-container">
+        {MenuArray &&
+          MenuArray.map((item, index) => {
+            const { image, info, path } = item;
+
+            return (
+              <NavLink to={path} className="menu-item" key={index}>
+                <img src={image} />
+                <span>{info}</span>
+              </NavLink>
+            );
+          })}
+      </div> */}
+      
+    </>
   );
 }
 export default Sidebar;

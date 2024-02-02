@@ -1,0 +1,42 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  border-radius: 10px;
+  /* background-color: #8b8b8b; */
+}
+.Profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  padding: 0px 40px 0px 0px;
+  gap: 10px;
+  /* background-color: #a0a0a0; */
+}
+
+.Caption {
+}
+.Images {
+}
+.Interactions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.like {
+  display: flex;
+  align-items: center;
+  /* background-color: rgb(106, 106, 106) 969; */
+  /* padding: 10px; */
+}
+.Input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #e1e1e1;
+}

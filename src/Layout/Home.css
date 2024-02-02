@@ -1,0 +1,22 @@
+* {
+  overflow: hidden;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.HomePage {
+  display: flex;
+  flex-direction: row;
+  /* gap: 20px; */
+}
+
+.sidebar {
+  background-color: #ff0000;
+  width: 16%;
+}
+
+.rightcontainer {
+  /* background-color: #00ff15; */
+  width: 84%;
+}

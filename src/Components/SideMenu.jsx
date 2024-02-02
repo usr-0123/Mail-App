@@ -5,6 +5,7 @@ import groups from "../assets/star.png";
 import video from "../assets/video.png";
 import photos from "../assets/photo.png";
 import events from "../assets/Group.png";
+import { NavLink } from "react-router-dom";
 import "./SideMenu.css";
 
 function SideMenu() {
@@ -12,26 +13,32 @@ function SideMenu() {
     {
       name: "Timeline",
       icon: timeline,
+      path: "/timeline"
     },
     {
-      name: "friends",
+      name: "Friends",
       icon: friends,
+      path: "/friends",
     },
     {
-      name: "groups",
+      name: "Groups",
       icon: groups,
+      path: "/groups",
     },
     {
-      name: "videos",
+      name: "Videos",
       icon: video,
+      path: "/videos",
     },
     {
-      name: "photos",
+      name: "Photos",
       icon: photos,
+      path: "/photos",
     },
     {
-      name: "events",
+      name: "Events",
       icon: events,
+      path: "/events",
     },
   ];
   return (
@@ -40,11 +47,13 @@ function SideMenu() {
         <p>Menu</p>
       </div>
       {menuItems &&
-        menuItems.map((item, index) => (
-          <div className="menu-item" key={index}>
-            <img src={item.icon} alt={item.name} />
-            <p>{item.name}</p>
-          </div>
+        menuItems.map((item) => (
+          <NavLink to={item.path} className={({ isActive }) => (isActive ? "menu-item active" : "menu-item")} key={item.path}>
+            <div>
+              <img src={item.icon} alt={item.name} />
+              <p>{item.name}</p>
+            </div>
+          </NavLink>
         ))}
     </div>
   );

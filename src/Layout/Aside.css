@@ -1,5 +1,13 @@
-.leftSide{
+.leftContent {
+  /* right: 0; */
+}
+
+.leftSide {
   padding: 10px;
+  right: 0;
+  height: 84vh;
+  float: right;
+  bottom: 0;
   /* background-color: #ff0000; */
 }
 
@@ -9,4 +17,18 @@
   border-radius: 10px;
   padding: 10px;
   margin: 10px 0px 10px 0px;
+}
+.sidebar-shortCuts,.sidenav-menu {
+  height: 20%;
+  background-color: #fff;
+  /* overflow: auto; */
+}
+.sidenav-menu {
+  overflow: auto;
+}
+
+.SideProfile {
+  background-color: #fff;
+  height: 40%;
+  overflow: auto;
 }

@@ -1,18 +1,48 @@
 .sides {
   display: flex;
   flex-direction: column;
-  /* gap: 20px; */
   height: 100%;
+  background-color: #ffffff;
 }
+
 .logo {
-  /* height: 88px; */
   background-color: #fff;
+  height: 13vh;
+  overflow: hidden;
 }
-.sprofile {
-  /* margin-top: 20px; */
-}
-/* .sprofile,
-.smenu,
+
 .shortcuts {
-  background-color: #ff0000;
+  /* overflow: auto; */
+  height: 30%;
+}
+
+.smenu {
+  overflow: auto;
+  height: 30%;
+}
+
+
+/* .menu-container {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+
+  .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    margin-top: 20px;
+
+    img {
+      width: 22px;
+      height: 22px;
+    }
+    span {
+      color: rgb(117, 117, 117);
+    }
+  }
 } */

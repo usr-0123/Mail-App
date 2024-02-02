@@ -1,0 +1,15 @@
+.bottom-right-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.status {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+.post {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}

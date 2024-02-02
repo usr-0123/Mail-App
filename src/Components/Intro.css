@@ -1,0 +1,20 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.Intro-top {
+  display: flex;
+  font-display: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.list {
+  list-style: none;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}

@@ -1,0 +1,20 @@
+.bottom-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.complete-profile {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.intro {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.photos {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}

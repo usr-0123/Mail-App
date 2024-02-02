@@ -17,11 +17,13 @@
   }
   .group-item{
     display: flex;
-    /* justify-content: center; */
     align-items: flex-start;
     gap: 10px;
     padding: 10px;
     color: #0F172A;
+    overflow: auto;
+    height: 80%;
+
     img{
         width: 30px;
         height: 30px;

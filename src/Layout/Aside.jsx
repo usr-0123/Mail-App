@@ -1,16 +1,14 @@
 import "./Aside.css";
-import ShortCuts from "../components/ShortCuts";
+import Cuts from "../Components/Shortcuts";
 import Groups from "../components/Group";
 import Contacts from "../components/Contacts";
-import Top from "../Components/Top";
-import Bottom from "../components/Bottom";
 
 function LeftContent() {
   return (
     <div className="leftContent">
       <div className="leftSide">
         <div className="sidebar-shortCuts">
-          <ShortCuts />
+          <Cuts />
         </div>
         <div className="SideProfile">
           <Contacts />

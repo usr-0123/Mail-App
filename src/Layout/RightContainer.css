@@ -1,0 +1,11 @@
+.Rightcontainer {
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  background-color: #fff;
+  height: 13vh;
+}
+.right-bottom {
+  background-color: #aeaeae;
+}

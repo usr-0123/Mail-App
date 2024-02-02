@@ -1,31 +1,20 @@
-import { useState } from "react";
-import "./App.css";
-import Sidebar from "./Layout/Sidebar";
-import Navbar from "./Layout/Navbar";
-import Aside from "./Layout/Aside";
-import Content from "./Layout/Content";
-// import Center from "./Layout/Center";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import "./App.css";
+import Home from "./Layout/Home";
+import LoginRegister from "./Layout/RegisterLogin/LoginRegister";
+import Friends from "./PageViews/Friends/Friends";
+import Timeline from "./PageViews/Timeline/Timeline";
+import Groups from "./PageViews/Groups/Groups";
+import Videos from "./PageViews/Videos/Video";
+import Events from "./PageViews/Events/Events";
+import Notification from "./PageViews/Notification/Notification";
+
 
 function App() {
   return (
-    <div className="main">
-      <aside className="sidebar">
-        <Sidebar />
-      </aside>
-      <div className="right">
-        <header className="navbar">
-          <Navbar />
-        </header>
-        <div className="container">
-          <div className="content">
-            <Content />
-          </div>
-          <aside className="aside">
-            <Aside />
-          </aside>
-        </div>
-      </div>
-    </div>
+    <>
+    <Home/>
+    </>
   );
 }
 

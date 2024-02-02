@@ -7,19 +7,22 @@ function Shortcuts() {
   return (
     <>
       <div className="shortcut-title">
-        <p>Shortcuts</p>
+        <p style={{ textTransform: "uppercase" }}>Groups</p>
+        <p style={{ color: "#2563EB" }}>See all</p>
       </div>
-      <div className="web-design">
-        <img src={icon1} alt="icon1" />
-        <p>Website Design</p>
-      </div>
-      <div className="Mob-design">
-        <img src={icon2} alt="icon2" />
-        <p>Mobile Design</p>
-      </div>
-      <div className="prod-design">
-        <img src={icon3} alt="icon3" />
-        <p>Product Design</p>
+      <div className="shortcut-list">
+        <div className="web-design">
+          <img src={icon1} alt="icon1" />
+          <p>Website Design</p>
+        </div>
+        <div className="Mob-design">
+          <img src={icon2} alt="icon2" />
+          <p>Mobile Design</p>
+        </div>
+        <div className="prod-design">
+          <img src={icon3} alt="icon3" />
+          <p>Product Design</p>
+        </div>
       </div>
     </>
   );

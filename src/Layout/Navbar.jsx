@@ -1,14 +1,12 @@
 import "./Navbar.css";
-
-// imports from the assets folder
 import dm from "../assets/inbox.png";
 import Notification from "../assets/notification.png";
 import profile from "../assets/Avatar.png";
 import chevron from "../assets/chevron-down.png";
 import search from "../assets/search.png";
 
-// The Function
 function Navbar() {
+
   return (
     <nav className="nav-container">
       <div className="search">
@@ -25,4 +23,5 @@ function Navbar() {
     </nav>
   );
 }
+
 export default Navbar;
