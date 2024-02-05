@@ -1,30 +1,30 @@
 .friends-container {
   width: 100%;
   border-right: 2px solid rgb(196, 196, 196);
-  background-color: #f8fafc;
+  background-color: #0080ff;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 
   .friend-card {
     background-color: #eceff1;
     border: 0.2px solid white;
     border-radius: 10px;
-    box-shadow: 2px 5px 2px gray;
-    width: 500px;
+    width: 45%;
     height: 200px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 10px;
     align-items: center;
+    padding: 10px;
 
     .top-card-content {
       display: flex;
       align-items: center;
       justify-content: space-between;
-
       padding: 4px;
       width: 97%;
 

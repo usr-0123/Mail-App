@@ -1,5 +1,4 @@
 import React from "react";
-import "../Friends/Friends.scss";
 import FriendsData from "../../JsonFiles/friends.json";
 import { FaEllipsisVertical } from "react-icons/fa6";
 import "../Friends/Friends.scss";
@@ -14,8 +13,13 @@ const Friends = () => {
           const { first_name, last_name, email } = person;
           return (
             <div className="friend-card" key={index}>
-              <div className="top-card-content">
-                <div className="photo-name">
+              <div
+                className="top-card-content"
+                // style={{ backgroundColor: "red" }}
+              >
+                <div className="photo-name"
+                //  style={{ backgroundColor: "red" }}
+                >
                   <img src={avatar} alt="" style={{ width: 40 }} />
                   <div className="name-wrapper">
                     <span>
