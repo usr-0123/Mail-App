@@ -19,8 +19,8 @@
     }
 
     > p {
-        font-weight: bold;
-        /* color: #94a3b8; */
+        font-size: 14px;
+        font-weight: 600;
     }
 }
 

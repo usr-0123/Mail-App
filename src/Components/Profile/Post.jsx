@@ -13,12 +13,16 @@ const Post = () => {
       <div className="Profile">
         <img src={Avatar} alt="noImg" />
         <div>
-          <p>Angela Lee</p>
-          <p>56 mins ago</p>
+          <p style={{ fontSize: "14px", fontSize: "600" }}>Angela Lee</p>
+          <p
+            style={{ fontSize: "12px", fontWeight: "500px", color: "#94A3B8" }}
+          >
+            56 mins ago
+          </p>
         </div>
       </div>
       <div className="Caption">
-        <p>
+        <p style={{ color: "#64748B", fontSize: "14px", fontWeight: "500" }}>
           Here are some photography works that I made on the weekend with some
           of my friends, happy for that!
         </p>
@@ -30,15 +34,15 @@ const Post = () => {
       <div className="Interactions">
         <div className="like">
           <img src={Like} alt="noImg" />
-          <span>2.6K Likes</span>
+          <span style={{ color: "#2563EB" }}>2.6K Likes</span>
         </div>
         <div className="like">
           <img src={Comments} alt="noImg" />
-          <span>297 Comments</span>
+          <span style={{ color: "#94A3B8" }}>297 Comments</span>
         </div>
         <div className="like">
           <img src={Share} alt="noImg" />
-          <span>201 Share</span>
+          <span style={{ color: "#94A3B8" }}>201 Share</span>
         </div>
       </div>
       <div className="Input">

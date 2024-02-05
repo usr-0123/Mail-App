@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 20px;
   
   .heading {
     display: flex;
@@ -17,10 +18,10 @@
   }
   .group-item{
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     gap: 10px;
     padding: 10px;
-    color: #0F172A;
+    /* color: #ff0000; */
     overflow: auto;
     height: 80%;
 

@@ -48,7 +48,7 @@ const Top = () => {
               </p>
               <h1
                 style={{
-                  color: "#2563EB",
+                  // color: "#2563EB",
                   fontSize: "16px",
                   fontWeight: "600",
                 }}
@@ -69,7 +69,7 @@ const Top = () => {
               </p>
               <h1
                 style={{
-                  color: "#2563EB",
+                  // color: "#2563EB",
                   fontSize: "16px",
                   fontWeight: "600",
                 }}
@@ -90,7 +90,7 @@ const Top = () => {
               </p>
               <h1
                 style={{
-                  color: "#2563EB",
+                  // color: "#2563EB",
                   fontSize: "16px",
                   fontWeight: "600",
                 }}
@@ -111,7 +111,7 @@ const Top = () => {
               </p>
               <h1
                 style={{
-                  color: "#2563EB",
+                  // color: "#2563EB",
                   fontSize: "16px",
                   fontWeight: "600",
                 }}

@@ -10,7 +10,7 @@ function Logo() {
       </div>
       <div className="logo">
         <img src={logo} alt="logo" />
-        <p>Hiphonic</p>
+        <p style={{fontSize:"23.2px",fontWeight:"700"}}>Hiphonic</p>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 .intro {
   display: flex;
   flex-direction: column;
+  font-size: 14px;
 }
 
 .Intro-top {
@@ -13,6 +14,7 @@
 .list {
   display: flex;
   flex-direction: column;
+  font-weight: 500;
 
   > div {
     display: flex;

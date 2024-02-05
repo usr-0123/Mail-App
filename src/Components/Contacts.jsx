@@ -10,8 +10,8 @@ function Contacts() {
   return (
     <>
       <div className="contactshead">
-        <p style={{ color: "#94a3b8" }}>CONTACTS</p>
-        <p style={{ color: "#2563EB" }}>See all</p>
+        <p style={{ color: "#94A3B8", fontSize:"12px",fontWeight:"700" }}>CONTACTS</p>
+        <p style={{ color: "#2563EB",fontSize: "14px",fontWeight:"700" }}>See all</p>
       </div>
 
       <div className="user1">

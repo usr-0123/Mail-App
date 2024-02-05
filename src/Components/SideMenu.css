@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   text-transform: capitalize;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 700;
   padding: 20px;
   
   .heading {

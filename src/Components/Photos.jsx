@@ -7,10 +7,12 @@ function Photos() {
     <div className="photosContainer">
       <div className="header">
         <div>
-          <p>Photos</p>
+          <p style={{ fontSize: "14px", fontWeight: "600" }}>Photos</p>
         </div>
         <div>
-          <p>See all</p>
+          <p style={{ fontSize: "12px", fontWeight: "400", color: "#2563EB" }}>
+            See all
+          </p>
         </div>
       </div>
       <div className="images">

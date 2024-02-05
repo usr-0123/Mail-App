@@ -9,12 +9,8 @@
     padding: 0px 0px 0px 20px;
     font-weight: bold;
 }
-
-.shortcut-title {
-    /* background-color: #ff0000; */
-}
-
 .shortcut-list {
+    font-weight: 600;
+    font-size: 14px;
     overflow: auto;
-    /* height: 66%; */
 }

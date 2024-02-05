@@ -44,11 +44,17 @@ function SideMenu() {
   return (
     <div className="sidemenu">
       <div className="heading">
-        <p>Menu</p>
+        <p style={{ color: "#94A3B8",fontSize:"12px" }}>Menu</p>
       </div>
       {menuItems &&
         menuItems.map((item) => (
-          <NavLink to={item.path} className={({ isActive }) => (isActive ? "menu-item active" : "menu-item")} key={item.path}>
+          <NavLink
+            to={item.path}
+            className={({ isActive }) =>
+              isActive ? "menu-item active" : "menu-item"
+            }
+            key={item.path}
+          >
             <div>
               <img src={item.icon} alt={item.name} />
               <p>{item.name}</p>

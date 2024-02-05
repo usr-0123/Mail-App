@@ -13,15 +13,15 @@ function Sideprofile() {
   return (
     <div className="profile-picture">
       <div className="profile-pic">
-        <img 
-        src={Profile} 
-        alt="profile Picture" 
-        // onClick={handleProfile} 
+        <img
+          src={Profile}
+          alt="profile Picture"
+          // onClick={handleProfile}
         />
       </div>
       <div className="username">
-        <h4>Angela Lee</h4>
-        <h5>@anglee</h5>
+        <h4 style={{ fontSize: "14px", fontWeight: "600" }}>Angela Lee</h4>
+        <h5 style={{ fontSize: "12px", fontWeight: "500" }}>@anglee</h5>
       </div>
     </div>
   );

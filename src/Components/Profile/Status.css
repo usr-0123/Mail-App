@@ -4,7 +4,7 @@
   align-items: center;
 }
 .span {
-  background-color: #8c8c8c;
+  background-color: #F8FAFC;
   border-radius: 10px;
   border: 0px;
   padding: 10px;
@@ -12,13 +12,17 @@
   margin-left: 1%;
 }
 .border {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #F1F5F9;
   margin: 10px 0px 10px 0px;
 }
 .StatusButtons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  color: #94A3B8;
+  font-size: 14px;
+  font-weight: 500px;
+
   > div {
     display: flex;
     align-items: center;

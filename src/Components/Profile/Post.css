@@ -24,6 +24,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  font-size: 14px;
+  font-weight: 500;
 }
 .like {
   display: flex;
@@ -38,7 +40,10 @@
   padding: 10px;
   border-radius: 10px;
   gap: 10px;
-  background-color: #e1e1e1;
+  background-color: #F8FAFC;
+  > Input {
+    background-color: #F8FAFC;
+  }
 }
 .input {
   border: 0px;

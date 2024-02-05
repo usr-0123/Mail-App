@@ -22,14 +22,36 @@ function Groups() {
   return (
     <div className="GroupItems">
       <div className="heading">
-        <p style={{ textTransform: "uppercase" }}>Your Page</p>
-        <p style={{ color: "#2563EB" }}>See all</p>
+        <p
+          style={{
+            textTransform: "uppercase",
+            color: "#94A3B8",
+            fontSize: "12px",
+            fontWeight: "700",
+          }}
+        >
+          Your Page
+        </p>
+        <p
+          style={{
+            color: "#2563EB",
+            color: "#2563EB",
+            fontSize: "14px",
+            fontWeight: "700",
+          }}
+        >
+          See all
+        </p>
       </div>
       {groupData &&
         groupData.map((item, index) => (
           <div className="group-item" key={index}>
             <img src={item.icon} alt={item.name} />
-            <p>{item.name}</p>
+            <p
+              style={{ fontSize: "14px", fontWeight: "600" }}
+            >
+              {item.name}
+            </p>
           </div>
         ))}
     </div>
