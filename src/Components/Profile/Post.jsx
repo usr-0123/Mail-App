@@ -1,10 +1,10 @@
-import Avatar from "../assets/Avatar.png";
-import Post1 from "../assets/unsplash1.png";
-import Post2 from "../assets/unsplash2.png";
-import Like from "../assets/heart.png";
-import Comments from "../assets/message-circle.png";
-import Share from "../assets/link.png";
-import emoji from "../assets/mood-smile.png";
+import Avatar from "../../assets/Avatar.png";
+import Post1 from "../../assets/unsplash1.png";
+import Post2 from "../../assets/unsplash2.png";
+import Like from "../../assets/heart.png";
+import Comments from "../../assets/message-circle.png";
+import Share from "../../assets/link.png";
+import emoji from "../../assets/mood-smile.png";
 import "./Post.css";
 
 const Post = () => {
@@ -42,7 +42,11 @@ const Post = () => {
         </div>
       </div>
       <div className="Input">
-        <input type="text" placeholder="Write your message..." />
+        <input
+          type="text"
+          className="input"
+          placeholder="Write your message..."
+        />
         <img src={emoji} alt="noImg" />
         <img src={Share} alt="noImg" />
       </div>

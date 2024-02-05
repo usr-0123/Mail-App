@@ -2,9 +2,6 @@ import React from "react";
 import "../Friends/Friends.scss";
 import FriendsData from "../../JsonFiles/friends.json";
 import { FaEllipsisVertical } from "react-icons/fa6";
-import useFetch from "../../hooks/useFetch";
-import { useState } from "react";
-import { useEffect } from "react";
 import "../Friends/Friends.scss";
 import avatar from "../../assets/Avatar.png";
 

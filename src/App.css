@@ -1,30 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   ::-webkit-scrollbar {
     display: none;
   }
-}
-.app-container {
-  display: flex;
-  flex-direction: row;
-  /* gap: 20px; */
-  /* padding: 20px; */
-  /* background-color: #f60909; */
-}
-
-.sidebar {
-  /* width: 15%; */
-  /* height: 100vh; */
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.rightcontainer {
-  right: 0;
-  top: 0;
-  /* width: 85%; */
-  /* height: 100%; */
-  position: fixed;
+  font-family: Inter;
 }

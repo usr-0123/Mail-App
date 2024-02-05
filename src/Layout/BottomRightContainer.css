@@ -3,13 +3,12 @@
   flex-direction: row;
 }
 .content {
-  background-color: rgb(194, 194, 194);
+  background-color: rgb(215, 215, 215);
   padding: 10px;
   height: 84vh;
-  width: 72%;
+  width: 100%;
   overflow: auto;
 }
-
-.aside{
-  /* width: 30%; */
+.aside {
+  width: 30%;
 }

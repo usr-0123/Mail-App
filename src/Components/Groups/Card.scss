@@ -1,0 +1,30 @@
+.Card {
+//   background-color: #2600ff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: 450px;
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+}
+
+.picture {
+  width: 95%;
+}
+
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  button {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}

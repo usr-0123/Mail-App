@@ -7,7 +7,7 @@ function Shortcuts() {
   return (
     <>
       <div className="shortcut-title">
-        <p style={{ textTransform: "uppercase" }}>Groups</p>
+        <p style={{ textTransform: "uppercase" }}>Shortcuts</p>
         <p style={{ color: "#2563EB" }}>See all</p>
       </div>
       <div className="shortcut-list">

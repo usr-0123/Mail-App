@@ -1,13 +1,14 @@
 import React from "react";
 import "../Timeline/Timeline.scss";
-import emoji from "../../assets/mood-smile.png";
+import happy_icon from "../../assets/mood-smile.png";
 
-import Update from "../../Components/Update";
-import { UpdateArray } from "../../Components/Update";
-import ContentUpdate from "../../Components/Post";
+import PostDiv from "./PostDiv";
+import { PostArray } from "./PostDiv";
+import PostContent from "../../Components/Timeline/Status";
 import Avatar from "../../assets/Avatar.png";
 import { NavLink } from "react-router-dom";
-const postData = UpdateArray;
+
+const postData = PostArray;
 
 const Timeline = () => {
   return (
@@ -39,12 +40,12 @@ const Timeline = () => {
         </div>
         <div className="post-input">
           <input type="text" placeholder="what is in your mind" />
-          <img src={emoji} alt="emoji" />
+          <img src={happy_icon} alt="emoji" />
         </div>
 
         <div className="actions">
-          {UpdateArray &&
-            UpdateArray.map((item, index) => {
+          {PostArray &&
+            PostArray.map((item, index) => {
               const { imageDetails, postImage } = item;
               return (
                 <div className="live-video" key={index}>
@@ -56,9 +57,9 @@ const Timeline = () => {
         </div>
       </div>
 
-      <ContentUpdate />
-      {/* <ContentUpdate /> */}
-      {/* <ContentUpdate /> */}
+      <PostContent />
+      <PostContent />
+      <PostContent />
     </div>
   );
 };

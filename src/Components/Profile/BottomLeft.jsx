@@ -1,7 +1,7 @@
 import CompleteProfile from "./CompleteProfile";
 import Intro from "./Intro";
 import "./BottomLeft.css";
-import Photos from "./Photos";
+import Photos from "../Photos";
 
 function BottomLeft() {
   return (

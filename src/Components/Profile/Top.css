@@ -1,0 +1,52 @@
+.Top {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.bigimg {
+  width: 100%;
+}
+
+.blueimage {
+  width: 100%;
+}
+
+.belowbigimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 70%;
+  padding: 1%;
+  > .h1 {font-size: 1px;}
+}
+.blow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #ff0000; */
+  margin: 0px 50px 0px 50px;
+  padding: 1%;
+}
+.floatBtn{
+  background-color: #ffffff;
+  margin-left: -100px;
+  /* margin-top: -900%; */
+  padding: 10px;
+}
+
+.floatProf {
+  /* width: 10%; */
+}
+.avatar {
+  margin-top: -100px;
+  margin-left: 50px;
+  width: 100px;
+}
+.bordered {
+  border-left: 10px solid rgb(0, 0, 0);
+  height: 100%;
+}

@@ -1,0 +1,9 @@
+.bottoms {
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+}
+
+.bottomleft {
+  width: 40%;
+}

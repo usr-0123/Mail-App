@@ -26,20 +26,6 @@ function Sidebar() {
           </div>
         </div>
       </div>
-
-      {/* <div className="menu-container">
-        {MenuArray &&
-          MenuArray.map((item, index) => {
-            const { image, info, path } = item;
-
-            return (
-              <NavLink to={path} className="menu-item" key={index}>
-                <img src={image} />
-                <span>{info}</span>
-              </NavLink>
-            );
-          })}
-      </div> */}
       
     </>
   );

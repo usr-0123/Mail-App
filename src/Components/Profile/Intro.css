@@ -5,16 +5,19 @@
 
 .Intro-top {
   display: flex;
-  font-display: row;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
+
 .list {
-  list-style: none;
-}
-li {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+  flex-direction: column;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
 }

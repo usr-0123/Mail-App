@@ -10,9 +10,11 @@ function LeftContent() {
         <div className="sidebar-shortCuts">
           <Cuts />
         </div>
+        <div className="border"></div>
         <div className="SideProfile">
           <Contacts />
         </div>
+        <div className="border"></div>
         <div className="sidenav-menu">
           <Groups />
         </div>

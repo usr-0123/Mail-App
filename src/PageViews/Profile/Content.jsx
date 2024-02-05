@@ -1,6 +1,6 @@
 import "./Content.css";
-import Top from "../../Components/Top";
-import Bottom from "../../Components/Bottom";
+import Top from "../../Components/Profile/Top";
+import Bottom from "../../Components/Profile/Bottom";
 
 function Content() {
   return (

@@ -7,8 +7,7 @@ import Videos from "../PageViews/Videos/Video";
 import Events from "../PageViews/Events/Events";
 import Notification from "../PageViews/Notification/Notification";
 import Profile from "../PageViews/Profile/Content";
-// import Home from "../Layout/Home";
-
+import Photos from "../PageViews/Photos/Photos";
 import "./BottomRightContainer.css";
 
 function BottomRightContainer() {
@@ -16,18 +15,15 @@ function BottomRightContainer() {
     <div className="bottomrcontainer">
       <div className="content">
         <Routes>
-          {/* <Routes> */}
-            <Route path="/" element={<Profile />} />
-            {/* <Route path="/Home" element={<Home />} /> */}
-            <Route path="/friends" element={<Friends />} />
-            <Route path="/timeline" element={<Timeline />} />
-            <Route path="/group" element={<Groups />} />
-            <Route path="/videos" element={<Videos />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/notification" element={<Notification />} />
-          {/* </Routes> */}
+          <Route path="/" element={<Profile />} />
+          <Route path="/friends" element={<Friends />} />
+          <Route path="/timeline" element={<Timeline />} />
+          <Route path="/groups" element={<Groups />} />
+          <Route path="/videos" element={<Videos />} />
+          <Route path="/photos" element={<Photos />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/notification" element={<Notification />} />
         </Routes>
-
       </div>
       <div className="aside">
         <Aside />

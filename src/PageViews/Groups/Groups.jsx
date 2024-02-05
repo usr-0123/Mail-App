@@ -1,8 +1,68 @@
+import "./Group.scss";
+
+import Suggests from "../../Components/Groups/suggestedContent";
+
+import Search from "../../assets/default.png";
+import Image from "../../assets/Avatar.png";
+import Post1 from "../../assets/Post1.png";
+import Post2 from "../../assets/Post2.png";
+import DE from "../../assets/DE.png";
+
 function Groups() {
   return (
-    <>
-      <p>This is events</p>
-    </>
+    <div className="Groups">
+      <div className="groupsTop">
+        <div className="header">
+          <p>Groups</p>
+          <div className="right">
+            <img src={Search} alt="err" />
+            <button className="newGroup">+ Create New Group</button>
+          </div>
+        </div>
+        <div className="suggested">
+          <div className="suggestedHeader">
+            <div className="left">
+              <p>Suggested for you</p>
+              <p>Groups you might be interested in.</p>
+            </div>
+            <div className="suggestedRight">
+              <p>See All</p>
+            </div>
+          </div>
+          <div className="suggestedContent">
+            <Suggests />
+          </div>
+        </div>
+      </div>
+
+      <div className="groupsBottom">
+        <div>
+          <p>Recent Activity</p>
+        </div>
+        <div className="header2">
+          <div className="avatar">
+            <img src={DE} alt="" />
+          </div>
+          <div className="user">
+            <p>Design Enthusiast</p>
+            <p>Angela Lee . 56 mins ago</p>
+          </div>
+        </div>
+        <div className="caption">
+          <p>
+            Conduct design process best practices across projects such as
+            gathering insights, validating problems & solutions, delivering
+            multiple fidelity levels of design, and ensure the final design is
+            implemented properly on.
+          </p>
+        </div>
+        <div className="pictures">
+          <img src={Post1} alt="err" />
+          <img src={Post2} alt="err" />
+        </div>
+      </div>
+    </div>
   );
 }
+
 export default Groups;

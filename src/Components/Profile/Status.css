@@ -1,0 +1,27 @@
+.statusInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.span {
+  background-color: #8c8c8c;
+  border-radius: 10px;
+  border: 0px;
+  padding: 10px;
+  height: 100%;
+  margin-left: 1%;
+}
+.border {
+  border-bottom: 1px solid grey;
+  margin: 10px 0px 10px 0px;
+}
+.StatusButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
