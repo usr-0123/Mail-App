@@ -15,7 +15,7 @@ const Status = () => {
   return (
     <div className="status">
       <div className="StatusTop">
-        <div className="profile">
+        <div className="statusprofile">
           <div className="picture">
             <img src={ProfilePic} alt="Profile Empty" />
           </div>

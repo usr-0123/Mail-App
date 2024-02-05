@@ -1,14 +1,23 @@
 .timeline-container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 10px;
+  
+  .Addupdate {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+  }
 
   .your-timeline-card {
-    // border:3px solid green;
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
 
     .header {
       display: flex;
@@ -23,72 +32,9 @@
   }
 
   .create-post-card {
-    width: 98.9%;
-    background-color: white;
-    padding: 4px;
-    border-radius: 2px;
-
-    .profile-user-name-wrapper {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 4px;
-      background-color: rgb(255, 255, 255);
-      box-shadow: 5px 5px 5px white;
-      .names {
-        display: inherit;
-        align-items: center;
-        // flex-direction: column;
-
-        .user-name {
-          span:nth-child(1) {
-            color: black;
-          }
-          span:nth-child(2) {
-            color: gray;
-            font-size: 14px;
-          }
-        }
-      }
-    }
-
-    .post-input {
-      margin: 2px;
-      width: 80%;
-      display: flex;
-      align-items: center;
-      gap: 2px;
-
-      img {
-        width: 40px;
-        height: 40px;
-        outline: gray;
-      }
-
-      input {
-        width: 70%;
-        height: 20px;
-        padding: 4px;
-        border: 2px solid rgb(236, 234, 234);
-        border-radius: 1rem;
-      }
-    }
-
-    .actions {
-      display: flex;
-      .live-video {
-        display: flex;
-        align-items: center;
-        padding: 10px;
-        gap: 12px;
-      }
-      img {
-        width: 20px;
-      }
-      span {
-        font-weight: bolder;
-        color: gray;
-      }
-    }
+    width: auto;
+    // background-color: rgb(255, 0, 0);
+    // padding: 10px;
+    border-radius: 10px;
   }
 }

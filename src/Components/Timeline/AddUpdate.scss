@@ -1,0 +1,72 @@
+.AddUpdate {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile {
+    padding: 10px;
+    display: flex;
+}
+
+.profile-user {
+    display: flex;
+    flex-direction: column;
+}
+
+.caption {
+    padding: 10px;
+}
+
+.ImagePosted {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.interactions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    div {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+.statusInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #F8FAFC;
+  border-radius: 10px;
+  padding: 10px;
+}
+.span {
+  background-color: #F8FAFC;
+  border-radius: 10px;
+  border: 0px;
+  padding: 10px;
+  height: 100%;
+  margin-left: 1%;
+}
+
+.border {
+  border-bottom: 1px solid #F1F5F9;
+  margin: 10px 0px 10px 0px;
+}
+
+.StatusButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #94A3B8;
+  font-size: 14px;
+  font-weight: 500px;
+
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
