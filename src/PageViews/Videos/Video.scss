@@ -1,0 +1,79 @@
+.Videos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+
+  .videosTop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+
+  .videosHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #F1F5F9;
+  }
+
+  .videosNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+  }
+
+  .videosContent {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    overflow-x: auto;
+    border-radius: 20px;
+  }
+
+  .videosBottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+
+    .videoPostProfile {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      .userVideoProfile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+
+    .videoPostCaption {
+      font-size: 14px;
+      font-weight: 500;
+      color: #64748b;
+    }
+
+    .videoPostPreview {
+      width: 100%;
+      border-radius: 10px;
+      > img {
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+  }
+}

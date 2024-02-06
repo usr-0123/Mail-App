@@ -11,12 +11,16 @@
 .border{
   border: 1px solid grey;
 }
-
+.shortcutHeading,.contactsHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 10px 20px;
+}
 .sidebar-shortCuts,
 .SideProfile,
 .sidenav-menu {
   /* border-radius: 10px; */
-  /* padding: 10px; */
+  padding: 10px;
 }
 .sidebar-shortCuts,.sidenav-menu {
   background-color: #fff;
@@ -26,7 +30,10 @@
 }
 
 .SideProfile {
-  background-color: #fff;
+  background-color: #ffffff;
+}
+.contactsList {
   overflow: auto;
-  height: 30%;
+  height: 200px;
+  background-color: #ffffff;
 }

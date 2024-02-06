@@ -13,13 +13,8 @@ const Friends = () => {
           const { first_name, last_name, email } = person;
           return (
             <div className="friend-card" key={index}>
-              <div
-                className="top-card-content"
-                // style={{ backgroundColor: "red" }}
-              >
-                <div className="photo-name"
-                //  style={{ backgroundColor: "red" }}
-                >
+              <div className="top-card-content">
+                <div className="photo-name">
                   <img src={avatar} alt="" style={{ width: 40 }} />
                   <div className="name-wrapper">
                     <span>

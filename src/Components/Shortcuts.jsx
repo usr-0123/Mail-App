@@ -6,7 +6,7 @@ import icon3 from "../assets/Rectangle 556 (2).png";
 function Shortcuts() {
   return (
     <>
-      <div className="shortcut-title">
+      {/* <div className="shortcut-title">
         <p
           style={{
             textTransform: "uppercase",
@@ -18,7 +18,7 @@ function Shortcuts() {
           Shortcuts
         </p>
         <p style={{ color: "#2563EB" }}>See all</p>
-      </div>
+      </div> */}
       <div className="shortcut-list">
         <div className="web-design">
           <img src={icon1} alt="icon1" />

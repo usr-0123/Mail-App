@@ -13,7 +13,9 @@ function Groups() {
     <div className="Groups">
       <div className="groupsTop">
         <div className="header">
-          <p>Groups</p>
+          <p style={{ color: "#0F172A", fontWeight: "700", fontSize: "22px" }}>
+            Groups
+          </p>
           <div className="right">
             <img src={Search} alt="err" />
             <button className="newGroup">+ Create New Group</button>
@@ -22,11 +24,29 @@ function Groups() {
         <div className="suggested">
           <div className="suggestedHeader">
             <div className="left">
-              <p>Suggested for you</p>
-              <p>Groups you might be interested in.</p>
+              <p style={{ fontWeight: "600", fontSize: "16px" }}>
+                Suggested for you
+              </p>
+              <p
+                style={{
+                  color: "#94A3B8",
+                  fontSize: "14px",
+                  fontWeight: "600",
+                }}
+              >
+                Groups you might be interested in.
+              </p>
             </div>
             <div className="suggestedRight">
-              <p>See All</p>
+              <p
+                style={{
+                  color: "#2563EB",
+                  fontSize: "14px",
+                  fontWeight: "400",
+                }}
+              >
+                See All
+              </p>
             </div>
           </div>
           <div className="suggestedContent">
@@ -34,11 +54,11 @@ function Groups() {
           </div>
         </div>
       </div>
+      <div>
+        <p style={{ fontSize: "16px", fontWeight: "600",padding:"10px 0 10px 0" }}>Recent Activity</p>
+      </div>
 
       <div className="groupsBottom">
-        <div>
-          <p>Recent Activity</p>
-        </div>
         <div className="header2">
           <div className="avatar">
             <img src={DE} alt="" />
@@ -49,7 +69,14 @@ function Groups() {
           </div>
         </div>
         <div className="caption">
-          <p>
+          <p
+            style={{
+              color: "#64748B",
+              fontSize: "14px",
+              fontWeight: "600",
+              letterSpacing: "0.2px",
+            }}
+          >
             Conduct design process best practices across projects such as
             gathering insights, validating problems & solutions, delivering
             multiple fidelity levels of design, and ensure the final design is

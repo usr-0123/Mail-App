@@ -1,20 +1,28 @@
 .Card {
-//   background-color: #2600ff;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 10px;
-  width: 450px;
+  row-gap: 10px;
+  padding: 20px;
+  width: 350px;
+  background-color: #F8FAFC;
+  border-radius: 20px;
 }
 .cardHeader {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  background-color: #fff;
   width: 100%;
+  .logo {
+    background-color: 0;
+  }
 }
 
 .picture {
-  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
 .cardBottom {
@@ -22,9 +30,14 @@
   justify-content: space-between;
   align-items: center;
   width: 95%;
+
   button {
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 10px;
+    border: 0;
+    padding: 10px 40px 10px 40px;
+    color: #2563EB;
+    font-weight: 700;
+    font-size: 14px;
   }
 }

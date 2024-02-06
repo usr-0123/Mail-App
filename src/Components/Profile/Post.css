@@ -3,7 +3,6 @@
   flex-direction: column;
   gap: 10px;
   border-radius: 10px;
-  /* background-color: #8b8b8b; */
 }
 .Profile {
   display: flex;
@@ -12,12 +11,14 @@
   width: fit-content;
   padding: 0px 40px 0px 0px;
   gap: 10px;
-  /* background-color: #a0a0a0; */
 }
 
 .Caption {
 }
 .Images {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .Interactions {
   display: flex;
@@ -30,8 +31,6 @@
 .like {
   display: flex;
   align-items: center;
-  /* background-color: rgb(106, 106, 106) 969; */
-  /* padding: 10px; */
 }
 .Input {
   display: flex;

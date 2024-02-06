@@ -12,7 +12,7 @@ const Top = () => {
         <div className="blueimage">
           <img className="bigimg" src={BigImg} alt="noimage" />
           <button className="floatBtn">
-            <Link to="/content">
+            <Link to="/notification">
               Edit Profile
             </Link>
           </button>

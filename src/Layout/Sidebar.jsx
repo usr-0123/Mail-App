@@ -22,11 +22,13 @@ function Sidebar() {
             <Sidemenu />
           </div>
           <div className="shortcuts">
+            <div className="shortcutsHeader">
+              <p style={{ color: "#94A3B8" }}>Shortcuts</p>
+            </div>
             <Shortcuts />
           </div>
         </div>
       </div>
-      
     </>
   );
 }

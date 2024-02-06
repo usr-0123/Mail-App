@@ -1,7 +1,5 @@
 import "./Card.scss";
 
-import "./Card.scss";
-
 import UD from "../../assets/UD.png";
 import Dots from "../../assets/dots-vertical.png";
 import pic from "../../assets/Mask Group.png";

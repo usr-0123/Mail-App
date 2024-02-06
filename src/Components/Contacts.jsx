@@ -9,11 +9,6 @@ import user5 from "../assets/Avatar.png";
 function Contacts() {
   return (
     <>
-      <div className="contactshead">
-        <p style={{ color: "#94A3B8", fontSize:"12px",fontWeight:"700" }}>CONTACTS</p>
-        <p style={{ color: "#2563EB",fontSize: "14px",fontWeight:"700" }}>See all</p>
-      </div>
-
       <div className="user1">
         <img src={user1} alt="img1" />
         <p>Wade Warren</p>
