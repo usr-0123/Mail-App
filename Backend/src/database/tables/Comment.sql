@@ -1,0 +1,9 @@
+CREATE TABLE Comment (
+    CommentID INT PRIMARY KEY,
+    PostID INT NOT NULL,
+    UserID INT NOT NULL,
+    CommentDate DATETIME  NOT NULL,
+    Content VARCHAR(MAX)
+    FOREIGN KEY (UserID) REFERENCES [User](UserID),
+    FOREIGN KEY (PostID) REFERENCES [Post](PostID)
+);

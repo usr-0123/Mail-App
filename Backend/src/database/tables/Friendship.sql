@@ -1,0 +1,6 @@
+CREATE TABLE Friendship (
+FriendshipID INT PRIMARY KEY,
+User1ID INT NOT NULL,
+User2ID INT NOT NULL,
+FriendshipDate DATETIME NOT NULL
+);

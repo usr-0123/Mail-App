@@ -1,0 +1,13 @@
+CREATE TABLE Post (
+    PostID INT PRIMARY KEY,
+    UserID INT NOT NULL,
+    Content VARCHAR(MAX) NOT NULL,
+    PostDate DATETIME NOT NULL,
+    Likes INT DEFAULT 0,
+    Comments INT DEFAULT 0,
+    FOREIGN KEY (UserID) REFERENCES [User](UserID)
+);
+
+SELECT * from Post
+
+DROP TABLE Post;
