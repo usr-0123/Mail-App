@@ -8,6 +8,13 @@ CREATE TABLE Post (
     FOREIGN KEY (UserID) REFERENCES [User](UserID)
 );
 
-SELECT * from Post
+SELECT * from Post;
 
 DROP TABLE Post;
+
+INSERT INTO Post (PostID,UserID,Content,PostDate,Likes,Comments)
+VALUES
+(1001,001,'Cool pic','01/12/2024',5,2),
+(1002,001,'Nice one','10/06/2023',5,2),
+(1003,001,'Nice one','11/11/2023',5,2),
+(1004,001,'Nice one','07/08/2023',5,2);

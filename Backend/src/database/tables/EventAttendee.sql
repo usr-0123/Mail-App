@@ -4,3 +4,13 @@ CREATE TABLE EventAttendee (
     FOREIGN KEY (EventID) REFERENCES [Event](EventID),
     FOREIGN KEY (AttendeeID) REFERENCES [User](UserID)
 );
+
+SELECT * FROM EventAttendee;
+
+INSERT INTO EventAttendee
+VALUES
+(6000,001),
+(6001,002),
+(6002,003),
+(6003,004),
+(6004,005);

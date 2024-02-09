@@ -7,3 +7,13 @@ CREATE TABLE Message (
     FOREIGN KEY (SenderID) REFERENCES [User](UserID),
     FOREIGN KEY (ReceiverID) REFERENCES [User](UserID)
 );
+
+SELECT * FROM Message;
+
+INSERT INTO Message
+VALUES
+(7000,001,002,10/02/2023,'Niaje?'),
+(7001,002,003,10/02/2023,'Mkuu'),
+(7002,003,004,10/02/2023,'Sawa'),
+(7003,004,005,10/02/2023,'Hehee'),
+(7004,005,001,10/02/2023,'Wow');
