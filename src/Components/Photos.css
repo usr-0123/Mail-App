@@ -1,11 +1,14 @@
 .photosContainer {
-    /* background-color: #ff9100; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .images {

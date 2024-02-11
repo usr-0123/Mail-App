@@ -4,6 +4,7 @@
     border-radius: 10px;
     font-size: 14px;
     font-weight: 600;
+    gap: 10px;
 }
 .scale {
     display: flex;

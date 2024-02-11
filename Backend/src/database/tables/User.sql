@@ -16,3 +16,6 @@ VALUES
 (003,'leah','leah@gmail.com','Leah','CBD'),
 (004,'becky','becky@gmail.com','Becky','Ngangarithi'),
 (005,'chrispin','chrispin@gmail.com','Chrispin','Ciaraini');
+
+select * FROM tbl_User
+WHERE UserID = 1;

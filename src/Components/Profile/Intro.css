@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   font-size: 14px;
+  gap: 10px;
 }
 
 .Intro-top {
@@ -15,6 +16,7 @@
   display: flex;
   flex-direction: column;
   font-weight: 500;
+  gap: 10px;
 
   > div {
     display: flex;

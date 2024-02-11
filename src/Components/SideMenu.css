@@ -11,6 +11,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    
 
     p {
       color: #94a3b8;
@@ -27,6 +28,7 @@
     color: #64748b;
     background-color: #ffffff;
     margin: 10px 0 10px 0;
+    text-decoration: none;
 
     > div {
       display: flex;

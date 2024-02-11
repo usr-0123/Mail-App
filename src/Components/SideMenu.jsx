@@ -44,7 +44,7 @@ function SideMenu() {
   return (
     <div className="sidemenu">
       <div className="heading">
-        <p style={{ color: "#94A3B8",fontSize:"12px" }}>Menu</p>
+        <p style={{ color: "#94A3B8",fontSize:"12px"}}>Menu</p>
       </div>
       {menuItems &&
         menuItems.map((item) => (

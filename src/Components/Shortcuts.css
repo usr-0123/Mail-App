@@ -6,7 +6,7 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    padding: 0px 0px 0px 20px;
+    padding: 10px 0px 10px 20px;
     font-weight: bold;
 }
 .shortcut-list {

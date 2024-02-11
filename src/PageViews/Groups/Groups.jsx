@@ -3,10 +3,9 @@ import "./Group.scss";
 import Suggests from "../../Components/Groups/suggestedContent";
 
 import Search from "../../assets/default.png";
-import Image from "../../assets/Avatar.png";
 import Post1 from "../../assets/Post1.png";
 import Post2 from "../../assets/Post2.png";
-import DE from "../../assets/DE.png";
+import De from "../../assets/DE.png";
 
 function Groups() {
   return (
@@ -54,18 +53,32 @@ function Groups() {
           </div>
         </div>
       </div>
-      <div>
-        <p style={{ fontSize: "16px", fontWeight: "600",padding:"10px 0 10px 0" }}>Recent Activity</p>
+      <div className="recentActivity">
+        <p
+          style={{
+            fontSize: "16px",
+            fontWeight: "600",
+            padding: "10px 0 10px 0",
+          }}
+        >
+          Recent Activity
+        </p>
       </div>
 
       <div className="groupsBottom">
-        <div className="header2">
-          <div className="avatar">
-            <img src={DE} alt="" />
+        <div className="header2s">
+          <div className="avatars">
+            <img src={De} alt="err" />
           </div>
           <div className="user">
-            <p>Design Enthusiast</p>
-            <p>Angela Lee . 56 mins ago</p>
+            <p
+              style={{ color: "#0F172A", fontSize: "14px", fontWeight: "600" }}
+            >
+              Design Enthusiast
+            </p>
+            <p style={{ color: "#94A3B8", fontSize: "12px", fontWeight: "500" }}>
+              Angela Lee . 56 mins ago
+            </p>
           </div>
         </div>
         <div className="caption">
