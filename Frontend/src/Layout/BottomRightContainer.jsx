@@ -15,7 +15,7 @@ function BottomRightContainer() {
     <div className="bottomrcontainer">
       <div className="content">
         <Routes>
-          <Route path="/" element={<Profile />} />
+          <Route path="/*" element={<Profile />} />
           <Route path="/friends" element={<Friends />} />
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/groups" element={<Groups />} />

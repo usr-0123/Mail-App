@@ -1,5 +1,5 @@
 import React from "react";
-import "../Timeline/Timeline.scss";
+import "./Timeline.scss";
 import happy_icon from "../../assets/mood-smile.png";
 
 import PostDiv from "./PostDiv";
