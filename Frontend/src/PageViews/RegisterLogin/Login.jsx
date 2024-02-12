@@ -9,7 +9,7 @@ const Login = () => {
 
   const SubmitFunction = (data) => {
     console.log(data);
-    
+
     const storedUserDetails = JSON.parse(localStorage.getItem("userData"));
     if (
       storedUserDetails &&
@@ -44,15 +44,17 @@ const Login = () => {
           <form onSubmit={handleSubmit(SubmitFunction)}>
             <input
               type="text"
+              className="UsernameInput"
               placeholder="Username"
               {...register("username")}
             />
             <input
               type="password"
+              className="PasswordInput"
               placeholder="Password"
               {...register("password")}
             />
-            <button type="submit">Login</button>
+            <button className="loginBtn" type="submit">Login</button>
           </form>
         </div>
       </div>

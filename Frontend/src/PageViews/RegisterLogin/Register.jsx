@@ -43,9 +43,9 @@ const Register = () => {
     <div className="register">
       <div className="card">
         <div className="left">
-          <h1>Premier Social.</h1>
+          <h1>Social Platform</h1>
           <p>
-            Welcome to our premier social media platform! Here, find a community
+            Welcome to this platform! Here, find a community
             of individuals from diverse backgrounds, all coming together to
             share their thoughts, experiences, and passions
           </p>
