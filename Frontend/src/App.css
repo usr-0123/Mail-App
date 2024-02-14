@@ -8,3 +8,5 @@
   }
   font-family: Inter;
 }
+
+@media (max-width: 375px) {}

@@ -10,13 +10,15 @@ const Top = () => {
     <div className="Top">
       <div className="BackGround">
         <div className="blueimage">
-          <img className="bigimg" src={BigImg} alt="noimage" />
-          <button className="floatBtn">
-            <Link to="/notification">
-              Edit Profile
-            </Link>
-          </button>
-          <img className="avatar" src={Avatar} alt="noimage" />
+          <div className="blueimage-top">
+            <div className="btn-edit">
+              <button className="floatBtn">Edit Profile</button>
+            </div>
+            <img className="bigimg" src={BigImg} alt="noimage" />
+          </div>
+          <div className="avatar-container">
+            <img className="avatar" src={Avatar} alt="noimage" />
+          </div>
         </div>
         <div className="blow">
           <div className="floatProf">
@@ -48,7 +50,6 @@ const Top = () => {
               </p>
               <h1
                 style={{
-                  // color: "#2563EB",
                   fontSize: "16px",
                   fontWeight: "600",
                 }}

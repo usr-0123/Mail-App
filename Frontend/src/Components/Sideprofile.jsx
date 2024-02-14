@@ -20,7 +20,7 @@ function Sideprofile() {
         />
       </div>
       <div className="username">
-        <h4 style={{ fontSize: "14px", fontWeight: "600" }}>Angela Lee</h4>
+        <h4 style={{ fontSize: "14px", fontWeight: "600",textDecoration: "none" }}>Angela Lee</h4>
         <h5 style={{ fontSize: "12px", fontWeight: "500" }}>@anglee</h5>
       </div>
     </div>

@@ -5,11 +5,27 @@
   padding: 10px;
   gap: 10px;
   width: 100%;
-}
+
 
 .logo {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
+}
+.menu-btn {
+  display: none;
+}
+}
+
+@media (max-width:400px) {
+  .logo-container{
+    .menu-icon {
+      display: none;
+    }
+    .menu-btn {
+      display: contents;
+    }
+    
+  }
 }

@@ -8,15 +8,22 @@
 .HomePage {
   display: flex;
   flex-direction: row;
-  /* gap: 20px; */
 }
 
 .sidebar {
-  /* background-color: #ff0000; */
   width: 16%;
 }
 
 .rightcontainer {
-  /* background-color: #00ff15; */
   width: 84%;
+}
+
+@media (max-width: 400px) {
+  .HomePage{}
+  .sidebar {
+    width: -150vw;
+  }
+  .rightcontainer {
+    width: 100%;
+  }
 }

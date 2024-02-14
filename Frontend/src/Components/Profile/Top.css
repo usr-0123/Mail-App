@@ -1,6 +1,7 @@
 .Top {
   background-color: #ffffff;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 .bigimg {
@@ -9,6 +10,13 @@
 
 .blueimage {
   width: 100%;
+  
+}
+.blueimage-top{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .belowbigimg {
@@ -28,25 +36,36 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #ff0000; */
   margin: 0px 50px 0px 50px;
   padding: 1%;
 }
-.floatBtn{
-  background-color: #ffffff;
-  margin-left: -100px;
-  /* margin-top: -900%; */
-  padding: 10px;
+
+.btn-edit{
+  margin: 20px 0 0 0;
+  width: 98%;
+  display: flex;
+  justify-content: end;
+    z-index: 1000;
+    position: absolute;
+}
+.avatar-container{
+  display: flex;
+  justify-content: start;
+  z-index: 1000;
+  margin-top: -90px;
+  position: relative;
 }
 
-.floatProf {
-  /* width: 10%; */
+.floatBtn{
+  background-color: #ffffff;
+  padding: 10px;
+
 }
 .avatar {
-  margin-top: -100px;
-  margin-left: 50px;
+  margin-left: 60px;
   width: 100px;
 }
+
 .bordered {
   border-left: 10px solid rgb(0, 0, 0);
   height: 100%;

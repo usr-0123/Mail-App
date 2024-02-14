@@ -3,7 +3,7 @@ import Shortcuts from "../Components/Shortcuts";
 import Sideprofile from "../Components/Sideprofile";
 import Sidemenu from "../Components/SideMenu";
 import Logo from "../Components/Logo";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -16,7 +16,9 @@ function Sidebar() {
         </div>
         <div className="side-below">
           <div className="sprofile">
-            <Sideprofile />
+            <Link to = "/content">
+              <Sideprofile />
+            </Link>
           </div>
           <div className="smenu">
             <Sidemenu />

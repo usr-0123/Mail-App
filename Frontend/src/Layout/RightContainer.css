@@ -9,3 +9,9 @@
 .right-bottom {
   background-color: #F8FAFC;
 }
+
+@media (max-width:400px) {
+.Rightcontainer{
+  width: 100vw;
+}
+}

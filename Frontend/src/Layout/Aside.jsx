@@ -6,7 +6,6 @@ import Contacts from "../components/Contacts";
 function LeftContent() {
   return (
     <div className="leftContent">
-      {/* <div className="leftSide"> */}
         <div className="sidebar-shortCuts">
           <div className="shortcutHeading">
             <p style={{ color: "#94A3B8" }}>Your Pages</p>
@@ -28,7 +27,6 @@ function LeftContent() {
         <div className="sidenav-menu">
           <Groups />
         </div>
-      {/* </div> */}
     </div>
   );
 }

@@ -1,14 +1,18 @@
 import "./Navbar.css";
+
+// assets
 import dm from "../assets/inbox.png";
 import Notifications from "../assets/notification.png";
 import profile from "../assets/Avatar.png";
 import chevron from "../assets/chevron-down.png";
 import search from "../assets/search.png";
+import Logo from "../Components/Logo"
+import Navbars from "../Layout/Sidebar"
 
 import Notification from "../PageViews/Notification/Notification";
 
+// hooks
 import UseReducer, { initialState } from "../hooks/useReducer";
-
 import { useReducer } from "react";
 import { useState } from "react";
 
@@ -42,6 +46,13 @@ const Navbar = () => {
         <img src={profile} alt="profile" />
         <img src={chevron} alt="chevron-down" />
       </div>
+
+      {/* mobile design objects  */}
+
+      <div className="mobile-nav">
+        <Logo />
+      </div>
+
       {state.isNavigationOpen && (
         <Notification handleOnClose={handleNavigationClose} style={{}} />
       )}

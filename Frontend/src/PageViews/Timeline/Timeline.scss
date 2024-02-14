@@ -33,8 +33,20 @@
 
   .create-post-card {
     width: auto;
-    // background-color: rgb(255, 0, 0);
-    // padding: 10px;
     border-radius: 10px;
+  }
+}
+
+@media (max-width:400px) {
+  .timeline-container {
+    .your-timeline-card {
+      width: 90vw;
+      padding: 10px;
+      background-color: #ffff;
+
+      .carousel {
+        width: fit-content;
+      }
+    }
   }
 }

@@ -7,3 +7,13 @@
 .bottomleft {
   width: 40%;
 }
+
+@media (max-width:400px) {
+  .bottoms {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottomleft {
+    width: 100%;
+  }
+}

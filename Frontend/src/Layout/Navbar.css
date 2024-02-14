@@ -37,3 +37,23 @@ input {
   width: 100%;
   height: 100%;
 }
+
+.mobile-nav {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
+  .search {
+    display: none;
+  }
+  .nav-right {
+    display: none;
+  }
+  .mobile-nav {
+    display: contents;
+  }
+}

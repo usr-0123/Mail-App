@@ -56,3 +56,11 @@
     }
   }
 }
+
+@media (max-width:400px) {
+  .friends-container{
+    .friend-card {
+      width: 100%;
+    }
+  }
+}

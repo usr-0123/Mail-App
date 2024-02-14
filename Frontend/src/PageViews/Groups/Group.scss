@@ -63,3 +63,15 @@
   flex-direction: row;
   align-items: center;
 }
+
+@media (max-width: 400px) {
+  .Groups {
+    .groupsTop {
+      .suggested {
+        .suggestedContent {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

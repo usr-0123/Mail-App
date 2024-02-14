@@ -1,0 +1,38 @@
+.desktop-Bottomrcontainer {
+  display: flex;
+  flex-direction: row;
+
+  .content {
+    background-color: #f8fafc;
+    padding: 10px;
+    height: 84vh;
+    width: 100%;
+    overflow: auto;
+  }
+  .aside {
+    width: 25%;
+    background-color: #ff0000;
+  }
+}
+.mobile-Bottomrcontainer {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .BottomRightContainer {
+
+    .desktop-Bottomrcontainer {
+      display: none;
+    }
+
+    .mobile-Bottomrcontainer {
+      display: contents;
+
+      .content {
+        overflow: auto;
+        height: 90vh;
+        padding: 10px;
+      }
+    }
+  }
+}

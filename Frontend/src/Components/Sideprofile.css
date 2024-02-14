@@ -7,6 +7,11 @@
   padding: 0px 16px 0px 10px;
   margin: 0px 10px 0px 10px;
   gap: 20px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: none;
 }
 .username {
   background-color: #ebebeb;
