@@ -6,11 +6,11 @@ content-Type: application/json
 
 {
     "UserID":"u11",
-    "Username": "mark",
-    "Email" : "mark@example.com",
+    "Username": "luwi",
+    "Email" : "kemboilewis6@gmail.com",
     "Password" : "123456",
-    "TagName":"Mark",
-    "Location":"Abuja"
+    "TagName":"Lewis",
+    "Location":"Silicon Valley"
 }
 
 ### //login user

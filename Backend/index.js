@@ -17,7 +17,7 @@ import eventAttendeesRouter from "./src/routes/eventAttendeeRouter.js";
 
 dotenv.config();
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8500;
 const app = express();
 
 app.use(bodyParser.json());

@@ -7,7 +7,7 @@ import { checkExistingFriendshipService, createFriendshipService, deleteFriendsh
 export const createFriendshipController = async (req, res) => {
     try {
 
-      const {User1ID,User2ID } = req.body;
+      const {User1ID, User2ID } = req.body;
       console.log(req.body);
       const existingFriendship = await checkExistingFriendshipService(User1ID, User2ID);
       console.log(existingFriendship);

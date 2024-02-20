@@ -1,5 +1,8 @@
 import bcrypt from "bcrypt";
 import { v4 } from "uuid";
+import nodemailer from 'nodemailer';
+import logger from "../utilis/logger.js";
+import emailTemp from "../../../MailActivities/emailTemp.js";
 import { addUserService, findByCredentialsService, getAllUserService, getOneUserService, updateUserDetailsService, deleteUserService} from "../services/userService.js";
 import { userValidator, userLoginValidator, userUpdateValidator} from "../validators/userValidator.js";
 import { sendServerError, sendCreated, notAuthorized, sendNotFound } from "../helper/helperFunctions.js";
@@ -27,6 +30,7 @@ export const registerUser = async (req, res) => {
       if (response.message) {
         sendServerError(res, response.message);
       } else {
+        sendMail(newUser.Email);
         sendCreated(res, "User created successfully");
       }
     } catch (error) {
@@ -34,6 +38,37 @@ export const registerUser = async (req, res) => {
     }
   }
 };
+
+// E-Mail service
+ export const sendMail = async (email) => {
+   let transporter = nodemailer.createTransport({
+     service: "gmail",
+     auth: {
+       user: process.env.EMAIL,
+       pass: process.env.PASSWORD,
+     },
+   });
+   const mailOptions = {
+     from: process.env.EMAIL,
+     to: email,
+     subject: "Welcome to Mail-App!",
+     html: emailTemp,
+   };
+   try {
+     logger.info("Sending mail....");
+     await transporter.sendMail(mailOptions, (error, info) => {
+       if (error) {
+         logger.error(error);
+         res.status(500).send(error);
+       } else {
+         logger.info(`Email sent: ${info.response}`);
+         res.status(500).send(error);
+       }
+     });
+   } catch (error) {
+     logger.error(error);
+   }
+ };
 
 // Login the user
 export const loginUser = async (req, res) => {
