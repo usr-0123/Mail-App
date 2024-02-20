@@ -1,10 +1,10 @@
-CREATE TABLE Friendship (
-FriendshipID INT PRIMARY KEY,
-User1ID INT NOT NULL,
-User2ID INT NOT NULL,
-FriendshipDate DATETIME NOT NULL
-FOREIGN KEY(User1ID) REFERENCES [tbl_User] (UserID),
-FOREIGN KEY(User2ID) REFERENCES [tbl_User] (UserID)
+CREATE TABLE Friendship(
+    FriendshipID VARCHAR(255) PRIMARY KEY,
+    User1ID VARCHAR(255),
+    User2ID VARCHAR(255),
+    FriendshipDate DATE,
+    FOREIGN KEY (User1ID) REFERENCES tbl_user(UserID),
+    FOREIGN KEY (User2ID) REFERENCES tbl_user(UserID)
 );
 
 DROP TABLE Friendship;

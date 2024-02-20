@@ -1,21 +1,20 @@
-CREATE TABLE  [User] (
-    UserID INT PRIMARY KEY,
-    Username VARCHAR(255) NOT NULL,
-    Email VARCHAR(255) NOT NULL,
-    TagName VARCHAR(255) NOT NULL,
+CREATE TABLE  tbl_userz (
+    UserID VARCHAR(255) PRIMARY KEY,
+    Username VARCHAR(255),
+    Email VARCHAR(255),
+    Password VARCHAR(255),
+    TagName VARCHAR(255),
     Location VARCHAR(255)
 );
 
-select * from tbl_User;
-
-EXEC sp_rename '[User]','tbl_User';
-
-INSERT INTO tbl_User (UserID,Username,Email,TagName,Location)
+INSERT INTO tbl_User (UserID,Username,Email,Password,TagName,Location)
 VALUES
-(002,'caleb','caleb@gmail.com','Caleb','Kingongo'),
-(003,'leah','leah@gmail.com','Leah','CBD'),
-(004,'becky','becky@gmail.com','Becky','Ngangarithi'),
-(005,'chrispin','chrispin@gmail.com','Chrispin','Ciaraini');
+('u01','caleb','caleb@gmail.com','1234u01','Caleb','Kingongo'),
+('u03','leah','leah@gmail.com','1234u03','Leah','CBD'),
+('u04','becky','becky@gmail.com','123u04','Becky','Ngangarithi'),
+('u05','chrispin','chrispin@gmail.com','123u05','Chrispin','Ciaraini');
 
-select * FROM tbl_User
-WHERE UserID = 1;
+select * from tbl_user;
+
+DELETE FROM tbl_user
+WHERE Username = 'ewis';

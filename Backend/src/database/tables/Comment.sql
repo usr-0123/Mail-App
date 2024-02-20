@@ -1,19 +1,3 @@
-CREATE TABLE Comment (
-    CommentID INT PRIMARY KEY,
-    PostID INT NOT NULL,
-    UserID INT NOT NULL,
-    CommentDate DATETIME  NOT NULL,
-    Content VARCHAR(MAX)
-    FOREIGN KEY (UserID) REFERENCES [User](UserID),
-    FOREIGN KEY (PostID) REFERENCES [Post](PostID)
-);
-
 SELECT * FROM Comment;
 
-INSERT INTO Comment
-VALUES
-(2000,1000,001,02/11/2023,'Good'),
-(2001,1001,002,01/12/2024,'Cool one'),
-(2003,1002,003,10/06/2023,'Hehee'),
-(2004,1003,004,11/11/2023,'Wow'),
-(2005,1004,005,08/07/2023,'Safii');
+DROP TABLE Comment;

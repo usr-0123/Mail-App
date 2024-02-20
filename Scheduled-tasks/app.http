@@ -1,0 +1,3 @@
+
+//send mail
+GET http://localhost:7000/send-mail

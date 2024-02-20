@@ -1,9 +1,10 @@
 CREATE TABLE Photo (
-    photoID INT NOT NULL PRIMARY KEY,
-    UserID INT NOT NULL,
-    PhotoURL VARCHAR(MAX) NOT NULL,
-    UploadDate DATETIME NOT NULL,
-    FOREIGN KEY (UserID) REFERENCES [User](UserID)
+    photoID VARCHAR(255) PRIMARY KEY,
+    userID VARCHAR(255),
+    PhotoURL VARCHAR(255),
+    uploadDate TIMESTAMP,
+    profile_img BIT DEFAULT 0,
+    FOREIGN KEY (userID) REFERENCES tbl_user(UserID)
 );
 
 INSERT INTO Photo
@@ -15,3 +16,5 @@ VALUES
 (4004,005,'https://drive/photos/4004.com',28/02/2023);
 
 SELECT * FROM Photo;
+
+DROP TABLE Photo;

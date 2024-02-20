@@ -1,19 +1,21 @@
 CREATE TABLE Message (
-    MessageID INT NOT NULL PRIMARY KEY,
-    SenderID INT NOT NULL,
-    ReceiverID INT NOT NULL,
-    MessageDate DATETIME NOT NULL,
-    Content VARCHAR(MAX) NOT NULL,
-    FOREIGN KEY (SenderID) REFERENCES [User](UserID),
-    FOREIGN KEY (ReceiverID) REFERENCES [User](UserID)
+    messageID VARCHAR(255) PRIMARY KEY,
+    senderID VARCHAR(255),
+    receiverID VARCHAR(255),
+    Content VARCHAR(500),
+    message_date DATETIME,
+    FOREIGN KEY (senderID) REFERENCES tbl_user (UserID),
+    FOREIGN KEY (receiverID) REFERENCES tbl_user (UserID)
 );
 
 SELECT * FROM Message;
 
-INSERT INTO Message
+INSERT INTO Message (messageID,senderID,receiverID,Content)
 VALUES
-(7000,001,002,10/02/2023,'Niaje?'),
-(7001,002,003,10/02/2023,'Mkuu'),
-(7002,003,004,10/02/2023,'Sawa'),
-(7003,004,005,10/02/2023,'Hehee'),
-(7004,005,001,10/02/2023,'Wow');
+('u7000','001','002','Niaje?'),
+('u7001','002','003','Mkuu'),
+('u7002','003','004','Sawa'),
+('u7003','004','005','Hehee'),
+('u7004','005','001','Wow');
+
+DROP TABLE Message;
